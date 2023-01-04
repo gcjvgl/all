@@ -1,0 +1,38 @@
+{
+    "name": "ALL",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "IoT_keyestudio": "github:keyestudio2019/ks_IoT#e005d5ca91e63fc3dc9871d27e0c5e01cb4972f3",
+        "bluetooth": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 1,
+                    "whitelist": 0,
+                    "security_level": null
+                }
+            }
+        }
+    }
+}
